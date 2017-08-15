@@ -502,6 +502,8 @@
 
                 if ( _currentIndex >= 0 ) { jump(_currentIndex); }
 
+                show();
+
                 return self;
             }
 

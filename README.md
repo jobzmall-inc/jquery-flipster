@@ -194,7 +194,7 @@ Include `data-flip-category` attributes on your items, and the navigation list w
 
 Contributing
 ---------------
-If you run into a problem or have an idea, [make an issue](https://github.com/drien/jquery-flipster/issues) on Github.
+If you run into a problem or have an idea, [make an issue](https://github.com/jobzmall-inc/jquery-flipster/issues) on Github.
 
 See room for improvement? Don't be shy! Fork this repo and I'll be happy to merge pull requests provided they keep Flipster lightweight, simple, and free of dependencies beyond jQuery. Make sure that you run [`grunt`](http://gruntjs.com) to generate minified files for distribution before making a pull request!
 

@@ -1,7 +1,7 @@
 {
   "name": "jquery-flipster",
   "version": "1.1.2",
-  "homepage": "https://github.com/drien/jquery-flipster",
+  "homepage": "https://github.com/jobzmall-inc/jquery-flipster",
   "description": "Responsive coverflow-style carousel plugin for jQuery",
   "main": [
     "dist/jquery.flipster.min.js",
@@ -9,7 +9,8 @@
   ],
   "authors": [
     "Adrien Delessert <a@drien.com>",
-    "Stephen Shaw <stephen@brokensquare.com>"
+    "Stephen Shaw <stephen@brokensquare.com>",
+    "Logan B. Lehman <logan@jobzmall.com"
   ],
   "keywords": [
     "coverflow",

@@ -23,6 +23,11 @@
         "name": "Stephen Shaw",
         "url": "http://brokensquare.com",
         "email":"stephen@brokensquare.com"
+        },
+        {
+        "name": "Logan B. Lehman",
+        "url": "http://jobzmall.com",
+        "email":"logan@jobzmall.com"
         }
     ],
     "licenses": [
@@ -31,9 +36,9 @@
             "url": "http://www.wtfpl.net/"
         }
     ],
-    "bugs": "https://github.com/drien/jquery-flipster/issues",
-    "homepage": "https://github.com/drien/jquery-flipster",
-    "docs": "https://github.com/drien/jquery-flipster",
+    "bugs": "https://github.com/jobzmall-inc/jquery-flipster/issues",
+    "homepage": "https://github.com/jobzmall-inc/jquery-flipster",
+    "docs": "https://github.com/jobzmall-inc/jquery-flipster",
     "dependencies": {
         "jquery": ">=1.8"
     }
