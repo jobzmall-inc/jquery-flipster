@@ -462,8 +462,7 @@
 
             function show() {
                 resize(true);
-                self.hide()
-                    .css('visibility', '')
+                self.css('visibility', '')
                     .addClass(classes.active)
                     .fadeIn(settings.fadeIn);
             }
@@ -499,12 +498,11 @@
                 // Insert navigation if enabled.
                 buildButtons();
                 buildNav();
-                resize();
-
-
-                if ( _currentIndex >= 0 ) { jump(_currentIndex); }
-
+                show();
                 
+                setTimeout(function() {
+                    if ( _currentIndex >= 0 ) { jump(_currentIndex); }
+                }, 1000);
 
                 return self;
             }
