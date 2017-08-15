@@ -397,7 +397,7 @@
                     if ( !_containerWidth || _itemOffsets[_currentIndex] === undefined ) { resize(true); }
 
                     if ( transformSupport ) {
-                        _container.css('transform', 'translateX(' + _itemOffsets[_currentIndex] + 'px)');
+                        _container.css('transform', 'translate3d(0,0,0) translateX(' + _itemOffsets[_currentIndex] + 'px)');
                     } else {
                         _container.css({ 'left': _itemOffsets[_currentIndex] + 'px' });
                     }
