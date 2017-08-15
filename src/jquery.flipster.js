@@ -467,7 +467,7 @@
                     .fadeIn(settings.fadeIn);
             }
 
-            function index() {
+            function index(firstTime) {
 
                 _container = self.find(settings.itemContainer).addClass(classes.container);
 
@@ -498,7 +498,9 @@
                 // Insert navigation if enabled.
                 buildButtons();
                 buildNav();
-                show();
+                if (!firstTime){
+                    show();
+                }
                 
                 setTimeout(function() {
                     if ( _currentIndex >= 0 ) { jump(_currentIndex); }
@@ -617,7 +619,7 @@
 
                 self.css('visibility', 'hidden');
 
-                index();
+                index(true);
 
                 if ( _items.length <= 1 ) {
                     self.css('visibility', '');
